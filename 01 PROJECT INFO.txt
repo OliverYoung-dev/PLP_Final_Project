@@ -1,0 +1,16 @@
+
+**Developed By Oliver Otieno**
+
+**Instructions**
+- Activate your virtualenv
+- pip install django
+- Install the Requirements: pip install -r requirements.txt
+-  pip install django-widget-tweaks
+-  pip install xhtml2pdf
+- Then, make database migrations: python manage.py makemigrations
+- python manage.py migrate
+- And finally, run the application: python manage.py runserver
+
+For Admin Account, please create one with superuser!
+- python manage.py createsuperuser
+
